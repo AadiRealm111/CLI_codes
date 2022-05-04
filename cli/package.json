@@ -1,0 +1,24 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "A cli project",
+  "main": "bin/mode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaditya",
+  "license": "ISC",
+  "bin": {
+    "hello": "./bin/index.js",
+    "new": "./bin/world.js",
+    "clear": "./bin/clear.js",
+    "initiate": "./bin/mode.js",
+    "chnwall": "./bin/wall.js"
+  },
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "python-shell": "^3.0.1",
+    "yargs": "^13.2.4"
+  }
+}
